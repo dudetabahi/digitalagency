@@ -33,7 +33,7 @@
 
 /*== Root Variables ==*/
 :root {
-    --main-color: #000000;
+    --main-color: #0f0518;
     --secondar-color: #f7a041;
     --third-color: #ffffff;
 }
@@ -214,7 +214,7 @@ article {
     background-color: #ffffff;
 }
 .back-animation.dark {
-    background-color: #000000;
+    background-color: #0f0518;
 }
 .full-img {
     width: 100%;
@@ -235,14 +235,14 @@ article {
 .img-rounded {
     border-radius: 15px;
 }
-blockquote {
+.blockquote {
     margin: 0;
     font-size: 14px;
     color: #888888;
     font-weight: 500;
     max-width: 340px;
 }
-blockquote span {
+.blockquote span {
     display: block;
     text-align: center;
     margin-bottom: 50px;
@@ -307,7 +307,7 @@ blockquote span {
 }
 .circle-hover {
     position: relative;
-    color: #000000;
+    color: #0f0518;
 }
 .circle-hover .circle-hover-text {
     position: absolute;
@@ -323,7 +323,7 @@ blockquote span {
     transition: .2s;
 }
 .circle-hover:hover {
-    color: #000000;
+    color: #0f0518;
 }
 .circle-hover svg circle {
     stroke-dasharray: 420px;
@@ -807,7 +807,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     right: 0;
     bottom: 0;
     top: 0;
-    background: var(--main-color);
+    background: var(--secondar-color);
     border-radius: 15px;
     opacity: 0;
     transition: .2s;
@@ -1043,7 +1043,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     max-height: 154px;
 }
 .service-grid-content:hover {
-    background: #000000;
+    background: #0f0518;
 }
 .service-grid-content:hover h3 {
     color: #fff;
@@ -1148,7 +1148,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     font-size: 22px;
 }
 .blog-list-item a {
-    color: #000000;
+    color: #0f0518;
 }
 .blog-list-item .text {
     margin-top: 35px;
@@ -1318,7 +1318,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     transition: .2s;
 }
 .form-checkbox:checked + .form-checkbox-label {
-    background: #000000;
+    background: #0f0518;
     color: #fff;
 }
 .form-checkbox {
@@ -1333,10 +1333,10 @@ body.dark-screen .normalCursor, .cursor-dark {
 }
 .form-input, .form-text {
     width: 100%;
-    color: #000000;
+    color: #0f0518;
     font-size: 22px;
     border: 0;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #0f0518;
     min-height: 68px;
     padding: 0;
 }
@@ -1344,7 +1344,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     position: relative;
 }
 .form-input::placeholder, .form-text::placeholder {
-    color: #000000;
+    color: #0f0518;
     font-size: 22px;
     font-weight: 500;
 }
@@ -1453,7 +1453,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     margin-bottom: 40px;
 }
 .location-item a {
-    color: #000000;
+    color: #0f0518;
 }
 /*=========================
     12. PARTNER css
@@ -1478,7 +1478,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     transition: .2s;
 }
 .partner-item:hover {
-    background: #000000;
+    background: #0f0518;
     transform: scale(1.2);
     z-index: 1;
 }
@@ -1499,4 +1499,8 @@ body.dark-screen .normalCursor, .cursor-dark {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.sp-text{
+    color: var(--secondar-color);
 }
